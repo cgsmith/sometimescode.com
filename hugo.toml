@@ -1,0 +1,32 @@
+baseURL = 'https://sometimescode.com/'
+languageCode = 'en-us'
+title = 'Sometimes Code'
+theme = 'sometimescode'
+
+# RSS feed settings
+copyright = "Chris Smith"
+rssLimit = 20
+
+# RSS feed configuration
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+
+[params]
+  description = 'A personal blog about programming, family life, and the intersection of technology and humanity'
+  author = 'Chris Smith'
+
+  # Social and contact information
+  email = 'chris@sometimescode.com'
+  github = 'https://github.com/cgsmith'
+  linkedin = 'https://linkedin.com/in/phpguy'
+
+  # Location and work
+  location = 'Henderson, Nevada'
+  company = 'Five Devs, LLC'
+
+  # Interests for content
+  interests = ['PHP', 'Formula 1', 'Mountain Biking', 'Brewing', 'Open Source']
+
+# Simple navigation is now handled in site-header.html partial
